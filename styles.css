@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.container {
+    padding: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: left;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+.card {
+    background-color: white;
+    color: #bf7631;
+    margin: 0;
+
+}
+.card1 {
+    background-color: #bf7631 ;
+    color: white;
+    margin: 0;
+}
